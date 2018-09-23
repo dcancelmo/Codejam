@@ -47,6 +47,7 @@ public class Dance {
                         break;
                     } else {
                         energy += rivalSkills.removeLast();
+                        honor--;
                     }
                 }
             }
